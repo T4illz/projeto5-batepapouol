@@ -1,4 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 .main{
     background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    width: 375px;
+    height: 667px;
+    position: relative;
+}
+    /*  classes do topo do html */
+.topo {
+    display: flex;
+    position: absolute;
+    width:100%;
+    height: 80px;
+    background-color: white;
+}
+.topo .logo{
+    position: absolute;
+    width: 75px;
+    height: 53px;
+    top:16px;
+    left:22px;
+}
+.topo .icon{
+    position: absolute;
+    width: 43px;
+    height: 31px;
+    top: 25px;
+    right: 22px;
+}
+
+/* classes do meio do html */
+
+.tela{
+    width: 100%;
+    padding-top: 106px;
+}
+.entrou, .saida{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: #DCDCDC;
+    color:black;
+    justify-content: left;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 4px;
+}
+.msg-simples{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color:black;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 4px;
+}
+.msg-reservada{
+    background-color: #FFDEDE;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    color:black;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 4px;
+}
+
+/* classes de baixo do html */
+
+.baixo {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    position: absolute;
+    bottom: 0%;
+}
+.teste{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.enviar {
+    position: absolute;
+    display: flex;
+    right: 18px;
+    
 }
