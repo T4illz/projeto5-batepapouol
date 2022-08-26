@@ -34,7 +34,10 @@
 
 .tela{
     width: 100%;
-    padding-top: 106px;
+    height:100%;
+    overflow-y: scroll;
+    overflow: hidden;
+    flex-wrap: nowrap;
 }
 .entrou, .saida{
     display: flex;

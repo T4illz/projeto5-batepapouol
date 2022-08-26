@@ -38,7 +38,8 @@ function carregarMsgs(resp){
         </li>
         `;
         }
-        if (msgs[i].text === 'sai da sala...' || msgs[i].text === 'entra da sala...'){
+        if (msgs[i].type === 'status'){
+        renderMsg.innerHTML = renderMsg.innerHTML +
             `
         <li class="entrou">
         ${msgs[i].time} ${msgs[i].from} para ${msgs[i].to}: ${msgs[i].text}
